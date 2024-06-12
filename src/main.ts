@@ -44,9 +44,7 @@ function drawMyCar(){
 }
 
 
-//Code for incomingCars............................................................
-const incomingCars = [];
-
+//Code for incomingCar............................................................
 
 //Function for drawing car
 
@@ -63,7 +61,7 @@ function updateIncomingCars(){
 
 }
 
-//Function change incoming car lane
+//Function t0 change incoming car lane
 function changeIncomingCarLane(){
     if(incomingCar.y>canvas.height + 10){
         incomingCar.y = 0;

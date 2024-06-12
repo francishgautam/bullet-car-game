@@ -34,7 +34,7 @@ class Car {
 const myCar = new Car(laneWidth*playerLane + laneWidth/2-carWidth/2,canvas.height-carHeight-50,carWidth,carHeight);
 const incomingCar = new Car(laneWidth + laneWidth/2-carWidth/2,0,carWidth,carHeight);
 const Score = document.querySelector('.score') as HTMLElement;
-// Score.innerText = `${score}`;
+Score.innerText = `${score}`;
 
 
 //Function to make player's car

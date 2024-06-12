@@ -19,6 +19,7 @@ canvas {
 
 .gameOver{
   display: none;
+  cursor: pointer;
 }
 
 .score{

@@ -14,4 +14,20 @@ body, html {
 canvas {
   background-image: url(/finalLane.png);
   background-size: cover;
+  /* background-color: black; */
+}
+
+.gameOver{
+  display: none;
+}
+
+.score{
+  font-size: xx-large;
+  margin-right: 30px;
+  background-color: antiquewhite;
+  width: 100px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
 }
